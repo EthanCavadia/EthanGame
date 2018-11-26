@@ -1,0 +1,4 @@
+Cannot generate into /media/ethan/Data/Developemment/Project/EC_GPR918_CPP
+It is already used for project D:/Developemment/Project/EC_GPR918_CPP
+
+Please either delete it manually or select another generation directory

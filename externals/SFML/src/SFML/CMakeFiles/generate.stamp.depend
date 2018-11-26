@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/Cmake/share/cmake-3.12/Modules/CMakeParseArguments.cmake
+D:/Developemment/Project/EC_GPR918_CPP/externals/SFML/cmake/Macros.cmake
+D:/Developemment/Project/EC_GPR918_CPP/externals/SFML/src/SFML/CMakeLists.txt
