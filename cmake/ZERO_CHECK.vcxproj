@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2590DFB2-AB18-3B1C-B79E-83A4F0C5DA92}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Developemment\Project\TrueProject\cmake\CMakeFiles\e381eea45bbd9d147a2a00064297dde4\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Developemment/Project/TrueProject/cmake/SAE918.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Developemment/Project/TrueProject/cmake/CMakeFiles/e381eea45bbd9d147a2a00064297dde4/generate.stamp.rule;D:\Cmake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Cmake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\FindOpenAL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindOpenGL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\Cmake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;D:\Developemment\Project\TrueProject\CMakeLists.txt;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeSystem.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXFeature.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXStandardLibrary.cmake;D:\Developemment\Project\TrueProject\cmake\EnumeratedOption.cmake;D:\Developemment\Project\TrueProject\cmake\IntelCompileFeatures.cmake;D:\Developemment\Project\TrueProject\externals\Box2D\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Config.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Macros.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindFLAC.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindFreetype.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindVorbis.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfig.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfigDependencies.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Audio\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Main\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\System\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TrueProject\cmake\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\System\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Main\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Window\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Network\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Graphics\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Audio\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\Box2D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Developemment/Project/TrueProject/cmake/SAE918.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Developemment/Project/TrueProject/cmake/CMakeFiles/e381eea45bbd9d147a2a00064297dde4/generate.stamp.rule;D:\Cmake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Cmake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\FindOpenAL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindOpenGL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\Cmake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;D:\Developemment\Project\TrueProject\CMakeLists.txt;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeSystem.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXFeature.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXStandardLibrary.cmake;D:\Developemment\Project\TrueProject\cmake\EnumeratedOption.cmake;D:\Developemment\Project\TrueProject\cmake\IntelCompileFeatures.cmake;D:\Developemment\Project\TrueProject\externals\Box2D\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Config.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Macros.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindFLAC.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindFreetype.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindVorbis.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfig.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfigDependencies.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Audio\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Main\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\System\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TrueProject\cmake\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\System\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Main\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Window\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Network\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Graphics\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Audio\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\Box2D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Developemment/Project/TrueProject/cmake/SAE918.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Developemment/Project/TrueProject/cmake/CMakeFiles/e381eea45bbd9d147a2a00064297dde4/generate.stamp.rule;D:\Cmake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Cmake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\FindOpenAL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindOpenGL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\Cmake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;D:\Developemment\Project\TrueProject\CMakeLists.txt;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeSystem.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXFeature.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXStandardLibrary.cmake;D:\Developemment\Project\TrueProject\cmake\EnumeratedOption.cmake;D:\Developemment\Project\TrueProject\cmake\IntelCompileFeatures.cmake;D:\Developemment\Project\TrueProject\externals\Box2D\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Config.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Macros.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindFLAC.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindFreetype.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindVorbis.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfig.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfigDependencies.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Audio\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Main\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\System\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TrueProject\cmake\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\System\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Main\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Window\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Network\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Graphics\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Audio\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\Box2D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Developemment/Project/TrueProject/cmake/SAE918.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Developemment/Project/TrueProject/cmake/CMakeFiles/e381eea45bbd9d147a2a00064297dde4/generate.stamp.rule;D:\Cmake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Cmake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\FindOpenAL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindOpenGL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\Cmake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;D:\Developemment\Project\TrueProject\CMakeLists.txt;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeSystem.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXFeature.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXStandardLibrary.cmake;D:\Developemment\Project\TrueProject\cmake\EnumeratedOption.cmake;D:\Developemment\Project\TrueProject\cmake\IntelCompileFeatures.cmake;D:\Developemment\Project\TrueProject\externals\Box2D\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Config.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Macros.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindFLAC.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindFreetype.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindVorbis.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfig.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfigDependencies.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Audio\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Main\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\System\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TrueProject\cmake\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\System\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Main\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Window\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Network\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Graphics\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Audio\CMakeFiles\generate.stamp;D:\Developemment\Project\TrueProject\cmake\externals\Box2D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
