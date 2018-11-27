@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{47B06128-0EE5-3873-9429-04B8D944F61F}</ProjectGuid>
+    <ProjectGuid>{3795A714-FEC4-34F8-A77A-408E52FCC015}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -56,26 +56,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">sfml-graphics.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">sfml-graphics-s-d</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">sfml-graphics.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">sfml-graphics-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">sfml-graphics.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">sfml-graphics-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">sfml-graphics.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">sfml-graphics-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -90,14 +90,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;SFML_STATIC;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\Debug\sfml-graphics-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\Debug\sfml-graphics-s.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;SFML_STATIC;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -110,7 +110,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -125,14 +125,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\Release\sfml-graphics-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\Release\sfml-graphics-s.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -145,7 +145,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -160,14 +160,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\MinSizeRel\sfml-graphics-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\MinSizeRel\sfml-graphics-s.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -180,7 +180,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -194,14 +194,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\RelWithDebInfo\sfml-graphics-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\RelWithDebInfo\sfml-graphics-s.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;STBI_FAILURE_USERMSG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TrueProject\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\stb_image;D:\Developemment\Project\TacosRevenge\externals\SFML\extlibs\headers\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -213,10 +213,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Graphics/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Graphics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Graphics/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Graphics/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -224,12 +224,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Graphics/CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindFreetype.cmake;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Graphics/CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\Modules\FindFreetype.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Graphics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Graphics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Graphics/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Graphics/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -237,12 +237,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Graphics/CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindFreetype.cmake;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Graphics/CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\Modules\FindFreetype.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Graphics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Graphics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Graphics/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Graphics/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -250,12 +250,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Graphics/CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindFreetype.cmake;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Graphics/CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\Modules\FindFreetype.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Graphics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Graphics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Graphics/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Graphics/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -263,93 +263,93 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Graphics/CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Modules\FindFreetype.cmake;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Graphics/CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\Modules\FindFreetype.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Graphics\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\BlendMode.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\BlendMode.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\Color.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Color.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Export.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\Font.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Font.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\Glsl.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Glsl.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Glsl.inl" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Glyph.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\GLCheck.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\GLCheck.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\GLExtensions.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\GLExtensions.cpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\Image.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Image.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\ImageLoader.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\ImageLoader.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\PrimitiveType.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Rect.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Rect.inl" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\RenderStates.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\RenderStates.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\RenderTexture.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\RenderTexture.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\RenderTarget.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\RenderTarget.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\RenderWindow.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\RenderWindow.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\Shader.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Shader.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\Texture.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Texture.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\TextureSaver.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\TextureSaver.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\Transform.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Transform.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\Transformable.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Transformable.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\View.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\View.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\Vertex.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Vertex.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\GLLoader.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\GLLoader.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Drawable.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\Shape.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Shape.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\CircleShape.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\CircleShape.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\RectangleShape.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\RectangleShape.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\ConvexShape.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\ConvexShape.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\Sprite.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Sprite.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\Text.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\Text.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\VertexArray.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\VertexArray.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\VertexBuffer.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Graphics\VertexBuffer.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\RenderTextureImpl.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\RenderTextureImpl.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\RenderTextureImplFBO.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\RenderTextureImplFBO.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\RenderTextureImplDefault.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Graphics\RenderTextureImplDefault.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\BlendMode.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\BlendMode.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\Color.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Color.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Export.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\Font.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Font.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\Glsl.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Glsl.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Glsl.inl" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Glyph.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\GLCheck.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\GLCheck.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\GLExtensions.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\GLExtensions.cpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\Image.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Image.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\ImageLoader.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\ImageLoader.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\PrimitiveType.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Rect.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Rect.inl" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\RenderStates.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\RenderStates.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\RenderTexture.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\RenderTexture.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\RenderTarget.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\RenderTarget.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\RenderWindow.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\RenderWindow.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\Shader.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Shader.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\Texture.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Texture.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\TextureSaver.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\TextureSaver.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\Transform.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Transform.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\Transformable.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Transformable.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\View.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\View.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\Vertex.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Vertex.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\GLLoader.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\GLLoader.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Drawable.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\Shape.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Shape.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\CircleShape.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\CircleShape.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\RectangleShape.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\RectangleShape.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\ConvexShape.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\ConvexShape.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\Sprite.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Sprite.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\Text.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\Text.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\VertexArray.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\VertexArray.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\VertexBuffer.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Graphics\VertexBuffer.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\RenderTextureImpl.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\RenderTextureImpl.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\RenderTextureImplFBO.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\RenderTextureImplFBO.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\RenderTextureImplDefault.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Graphics\RenderTextureImplDefault.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\ZERO_CHECK.vcxproj">
-      <Project>{2590DFB2-AB18-3B1C-B79E-83A4F0C5DA92}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\ZERO_CHECK.vcxproj">
+      <Project>{574B78DB-065C-3CE4-BDD0-66FA08335471}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\System\sfml-system.vcxproj">
-      <Project>{DC99FB1E-E7CA-3BF3-A2D2-87B3F1EAE443}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\System\sfml-system.vcxproj">
+      <Project>{CF499F2C-3497-3CEB-B9AF-65F4A8340978}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Window\sfml-window.vcxproj">
-      <Project>{473945DC-D938-3B7F-8C49-97DC4B4B9B99}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{F2733A7E-540C-3EDD-804F-1C2ED88E48C4}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
   </ItemGroup>

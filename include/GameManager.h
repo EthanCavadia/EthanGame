@@ -1,13 +1,10 @@
-#ifndef GAMEMANAGER_H
-#define GAMEMANAGER_H
 #include "SFML/System/Clock.hpp"
-#include "SFML/Graphics/RenderWindow.hpp"
-#include "SFML/Window/Event.hpp"
+#include "SFML/Graphics.hpp"
 
 class GameManager
 {
 public:
-	sf::Clock clock;
+
 	void Game();
 
 private:
@@ -21,7 +18,5 @@ private:
 
 	static GameState gameState;
 	sf::RenderWindow window;
-	
+	sf::Clock clock;
 };
-
-#endif

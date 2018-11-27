@@ -1,4 +1,4 @@
-# Install script for directory: D:/Developemment/Project/TrueProject/externals/SFML/src/SFML
+# Install script for directory: D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/System/cmake_install.cmake")
-  include("D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Main/cmake_install.cmake")
-  include("D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Window/cmake_install.cmake")
-  include("D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Network/cmake_install.cmake")
-  include("D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Graphics/cmake_install.cmake")
-  include("D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Audio/cmake_install.cmake")
+  include("D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/System/cmake_install.cmake")
+  include("D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Main/cmake_install.cmake")
+  include("D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Window/cmake_install.cmake")
+  include("D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Network/cmake_install.cmake")
+  include("D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Graphics/cmake_install.cmake")
+  include("D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Audio/cmake_install.cmake")
 
 endif()
 

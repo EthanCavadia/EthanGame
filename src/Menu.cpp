@@ -1,6 +1,5 @@
 #include <Menu.h>
 #include <iostream>
-#include "Globals.h"
 #include "SFML/Graphics/Sprite.hpp"
 #include "SFML/Window/Event.hpp"
 #include "SFML/Graphics/Texture.hpp"

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CE594DC5-5FA6-35E7-9379-9D890A9332FA}</ProjectGuid>
+    <ProjectGuid>{8E65C380-6619-379A-A620-1346D4FD29C6}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -63,7 +63,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -73,7 +73,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -83,7 +83,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -93,7 +93,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -102,10 +102,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Developemment\Project\TrueProject\externals\SFML\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Developemment\Project\TacosRevenge\externals\SFML\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -113,12 +113,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Cmake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;D:\Developemment\Project\TrueProject\externals\SFML\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Config.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfig.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfigDependencies.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Cmake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\Config.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\SFMLConfig.cmake.in;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\SFMLConfigDependencies.cmake.in;D:\Developemment\Project\TacosRevenge\externals\SFML\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -126,12 +126,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Cmake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;D:\Developemment\Project\TrueProject\externals\SFML\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Config.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfig.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfigDependencies.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Cmake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\Config.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\SFMLConfig.cmake.in;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\SFMLConfigDependencies.cmake.in;D:\Developemment\Project\TacosRevenge\externals\SFML\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,12 +139,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Cmake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;D:\Developemment\Project\TrueProject\externals\SFML\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Config.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfig.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfigDependencies.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Cmake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\Config.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\SFMLConfig.cmake.in;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\SFMLConfigDependencies.cmake.in;D:\Developemment\Project\TacosRevenge\externals\SFML\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -152,40 +152,40 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Cmake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;D:\Developemment\Project\TrueProject\externals\SFML\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\cmake\Config.cmake;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfig.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\cmake\SFMLConfigDependencies.cmake.in;D:\Developemment\Project\TrueProject\externals\SFML\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Cmake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckIncludeFileCXX.cmake;D:\Cmake\share\cmake-3.12\Modules\CheckTypeSize.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPkgConfig.cmake;D:\Cmake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\Config.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\SFMLConfig.cmake.in;D:\Developemment\Project\TacosRevenge\externals\SFML\cmake\SFMLConfigDependencies.cmake.in;D:\Developemment\Project\TacosRevenge\externals\SFML\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\ZERO_CHECK.vcxproj">
-      <Project>{2590DFB2-AB18-3B1C-B79E-83A4F0C5DA92}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\ZERO_CHECK.vcxproj">
+      <Project>{574B78DB-065C-3CE4-BDD0-66FA08335471}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Audio\sfml-audio.vcxproj">
-      <Project>{25BEB9CD-5B34-3E59-A471-157C3CB87432}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{3022F26E-6C24-374B-A255-8418FFED458C}</Project>
       <Name>sfml-audio</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Graphics\sfml-graphics.vcxproj">
-      <Project>{47B06128-0EE5-3873-9429-04B8D944F61F}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{3795A714-FEC4-34F8-A77A-408E52FCC015}</Project>
       <Name>sfml-graphics</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Main\sfml-main.vcxproj">
-      <Project>{A82BB60E-880A-3632-81C6-40AC41951E6D}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Main\sfml-main.vcxproj">
+      <Project>{A971B65B-4E34-3F01-B21E-0F98E9BE595E}</Project>
       <Name>sfml-main</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Network\sfml-network.vcxproj">
-      <Project>{7A96CF29-9A89-3EAC-8590-463E513B3CF0}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{FCFF61F6-29D6-3A72-9D75-E053EBF145DA}</Project>
       <Name>sfml-network</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\System\sfml-system.vcxproj">
-      <Project>{DC99FB1E-E7CA-3BF3-A2D2-87B3F1EAE443}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\System\sfml-system.vcxproj">
+      <Project>{CF499F2C-3497-3CEB-B9AF-65F4A8340978}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Window\sfml-window.vcxproj">
-      <Project>{473945DC-D938-3B7F-8C49-97DC4B4B9B99}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{F2733A7E-540C-3EDD-804F-1C2ED88E48C4}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
   </ItemGroup>
