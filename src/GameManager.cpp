@@ -99,7 +99,7 @@ void GameManager::GameLoop()
 				playerCharacter.Update(dt.asSeconds());
 				view.setCenter(playerCharacter.GetPosition());
 				window.setView(view);
-				window.clear(sf::Color::Black)
+				window.clear(sf::Color::Black);
 				//DrawMap();
 				for (auto& g : grounds)
 				{
