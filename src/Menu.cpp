@@ -64,10 +64,16 @@ void MainMenu::MoveDown()
 
 MainMenu::MenuAction MainMenu::GetMenuAction(sf::RenderWindow& window)
 {
+<<<<<<< HEAD
 	sf::Event menuEvent;
 	while (window.isOpen())
 	{
 		
+=======
+	while (window.isOpen())
+	{
+		sf::Event menuEvent;
+>>>>>>> master
 
 		while (window.pollEvent(menuEvent))
 		{
@@ -161,6 +167,7 @@ void PauseMenu::MoveDown()
 
 MainMenu::MenuAction PauseMenu::GetPauseAction(sf::RenderWindow& window)
 {
+<<<<<<< HEAD
 	sf::Event pauseEvent;
 	while (window.pollEvent(pauseEvent))
 	{
@@ -168,6 +175,14 @@ MainMenu::MenuAction PauseMenu::GetPauseAction(sf::RenderWindow& window)
 		{
 		case sf::Event::KeyReleased:
 			switch (pauseEvent.key.code)
+=======
+	while (window.pollEvent(menuEvent))
+	{
+		switch (menuEvent.type)
+		{
+		case sf::Event::KeyReleased:
+			switch (menuEvent.key.code)
+>>>>>>> master
 			{
 			case sf::Keyboard::Up:
 				MoveUp();

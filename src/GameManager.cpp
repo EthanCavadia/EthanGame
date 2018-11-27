@@ -17,7 +17,11 @@ void GameManager::Game()
 
 	// then create (or automatically recreate) the RenderWindow
 	window.create(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGTH), WINDOW_TITLE);
+<<<<<<< HEAD
 	window.setFramerateLimit(60u);
+=======
+	window.setFramerateLimit(60);
+>>>>>>> master
 	gameState = ShowingMenu;
 
 	while (!IsExiting())
@@ -49,7 +53,11 @@ void GameManager::GameLoop()
 
 	case Playing:
 		//Setting the world and the contact listener
+<<<<<<< HEAD
 		b2World world(b2Vec2(0.0f, 9.8f));
+=======
+		b2World world(b2Vec2(0.0f, 9.81f));
+>>>>>>> master
 		PlayerContactListener contactListener;
 		world.SetContactListener(&contactListener);
 
@@ -79,6 +87,7 @@ void GameManager::GameLoop()
 				case sf::Event::Resized:
 					ResizedView(window, view);
 					break;
+<<<<<<< HEAD
 				case sf::Event::KeyReleased:
 					switch (event.key.code)
 					{
@@ -87,12 +96,21 @@ void GameManager::GameLoop()
 						break;
 					}
 				
+=======
+>>>>>>> master
 				}
 				if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
 				{
 					window.close();
 				}
+<<<<<<< HEAD
 				
+=======
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::P))
+				{
+					gameState = ShowingPauseMenu;
+				}
+>>>>>>> master
 
 			}
 
@@ -138,7 +156,11 @@ void GameManager::ShowMenu()
 
 void GameManager::ShowPauseMenu()
 {
+<<<<<<< HEAD
 	PauseMenu pauseMenu(window.getSize().x / 2 , window.getSize().y);
+=======
+	PauseMenu pauseMenu(window.getSize().x, window.getSize().y);
+>>>>>>> master
 	MainMenu::MenuAction action = pauseMenu.GetPauseAction(window);
 
 	switch (action)

@@ -50,11 +50,20 @@ void PlayerCharacter::InputManager()
 		!wasJumpKeyPressed && isOnGround)
 	{
 		//Jump
+<<<<<<< HEAD
 		verticalJump = -80.0f;
 	}
 	body->SetLinearVelocity(b2Vec2(pixel2meter(playerSpeed) * horizontalInput, verticalJump));
 
 	wasJumpKeyPressed = sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up) || sf::Keyboard::isKeyPressed(sf::Keyboard::Space);
+=======
+		verticalJump = -8.0f;
+	}
+	body->SetLinearVelocity(b2Vec2(pixel2meter(playerSpeed) * horizontalInput, verticalJump));
+
+	wasJumpKeyPressed = sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up) || sf::Keyboard::isKeyPressed(
+		sf::Keyboard::Space);
+>>>>>>> master
 }
 
 void PlayerCharacter::Update(float dt)

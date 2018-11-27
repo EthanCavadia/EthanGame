@@ -3,7 +3,11 @@
 #include "Box2D/Common/b2Math.h"
 #include "SFML/System/Vector2.hpp"
 
+<<<<<<< HEAD
 const float pixelPerMeter = 100.0f;
+=======
+const float pixelPerMeter = 150.0f;
+>>>>>>> master
 
 b2Vec2 pixel2meter(sf::Vector2f v);
 float pixel2meter(float f);
