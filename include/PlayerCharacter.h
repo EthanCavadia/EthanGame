@@ -35,15 +35,15 @@ public:
 	sf::Vector2f GetPosition();
 	void SetPosition(sf::Vector2f v);
 	void SetOnGround(bool contact);
-
 private:
 
 	sf::RectangleShape playerShape;
 	b2Body* body;
 	sf::Vector2f position;
-	const float playerSpeed = 500.0f;
+	const float playerSpeed = 50.0f;
 	bool isOnGround = false;
 	bool wasJumpKeyPressed = false;
+	bool wasjumpButtonPressed = false;
 };
 
 #endif

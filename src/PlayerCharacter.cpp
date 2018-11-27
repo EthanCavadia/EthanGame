@@ -35,35 +35,55 @@ PlayerCharacter::PlayerCharacter(b2World& world, sf::Vector2f position, sf::Vect
 void PlayerCharacter::InputManager()
 {
 	float horizontalInput = 0.0f;
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Left))
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Left) || sf::Keyboard::isKeyPressed(sf::Keyboard::W))
 	{
 		horizontalInput = -1.0f;
 	}
 
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Right))
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Right) || sf::Keyboard::isKeyPressed(sf::Keyboard::D))
 	{
 		horizontalInput = 1.0f;
 	}
 
 	float verticalJump = body->GetLinearVelocity().y;
-	if ((sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up) || sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) && 
+	if ((sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up) || sf::Keyboard::isKeyPressed(sf::Keyboard::Space) || sf::priv::InputImpl::isKeyPressed(sf::Keyboard::W)) &&
 		!wasJumpKeyPressed && isOnGround)
 	{
 		//Jump
-<<<<<<< HEAD
-		verticalJump = -80.0f;
-	}
-	body->SetLinearVelocity(b2Vec2(pixel2meter(playerSpeed) * horizontalInput, verticalJump));
-
-	wasJumpKeyPressed = sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up) || sf::Keyboard::isKeyPressed(sf::Keyboard::Space);
-=======
 		verticalJump = -8.0f;
 	}
+	
+
+	if (sf::Joystick::isConnected(0))
+	{
+		
+		float x = sf::Joystick::getAxisPosition(0, sf::Joystick::X);
+		if (sf::Joystick::getAxisPosition(0,sf::Joystick::X))
+		{
+			if(x < -50.0f)
+			{
+				horizontalInput = -1.0f;
+			}
+		}
+
+		if (sf::Joystick::getAxisPosition(0, sf::Joystick::X))
+		{
+			if (x < 50.0f)
+			{
+				horizontalInput = 1.0f;
+			}
+		}
+		std::cout << x;
+		if (sf::Joystick::isButtonPressed(0,0) && !wasjumpButtonPressed && isOnGround)
+		{
+			//Jump
+			verticalJump = -8.0f;
+		}
 	body->SetLinearVelocity(b2Vec2(pixel2meter(playerSpeed) * horizontalInput, verticalJump));
 
-	wasJumpKeyPressed = sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up) || sf::Keyboard::isKeyPressed(
-		sf::Keyboard::Space);
->>>>>>> master
+	//check all the jump button to avoid infinite jump
+	wasJumpKeyPressed = sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up) || sf::Keyboard::isKeyPressed(sf::Keyboard::Space) || sf::Keyboard::isKeyPressed(sf::Keyboard::W) || sf::Joystick::isButtonPressed(0,0);
+	}
 }
 
 void PlayerCharacter::Update(float dt)
