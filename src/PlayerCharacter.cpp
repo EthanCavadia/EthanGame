@@ -83,7 +83,7 @@ void PlayerCharacter::InputManager()
 			//Jump
 			verticalJump = -8.0f;
 		}		
-	}*/
+	}
 
 	body->SetLinearVelocity(b2Vec2(pixel2meter(playerSpeed) * horizontalInput, verticalJump));
 
