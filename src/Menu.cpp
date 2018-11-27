@@ -64,58 +64,54 @@ void MainMenu::MoveDown()
 
 MainMenu::MenuAction MainMenu::GetMenuAction(sf::RenderWindow& window)
 {
-<<<<<<< HEAD
 	sf::Event menuEvent;
 	while (window.isOpen())
 	{
-		
-=======
-	while (window.isOpen())
-	{
-		sf::Event menuEvent;
->>>>>>> master
 
-		while (window.pollEvent(menuEvent))
+		while (window.isOpen())
 		{
-			switch (menuEvent.type)
+			sf::Event menuEvent;
+			while (window.pollEvent(menuEvent))
 			{
-			case sf::Event::KeyReleased:
-				switch (menuEvent.key.code)
+				switch (menuEvent.type)
 				{
-				case sf::Keyboard::Up:
-					MoveUp();
-					break;
-
-				case sf::Keyboard::Down:
-					MoveDown();
-					break;
-
-				case sf::Keyboard::Enter:
-					switch (GetPressedItem())
+				case sf::Event::KeyReleased:
+					switch (menuEvent.key.code)
 					{
-					case 0:
-						return Play;
+					case sf::Keyboard::Up:
+						MoveUp();
+						break;
 
-					case 1:
-						return Exit;
+					case sf::Keyboard::Down:
+						MoveDown();
+						break;
+
+					case sf::Keyboard::Enter:
+						switch (GetPressedItem())
+						{
+						case 0:
+							return Play;
+
+						case 1:
+							return Exit;
+						}
+
+						break;
 					}
 
 					break;
+				case sf::Event::Closed:
+					window.close();
+
+					break;
 				}
-
-				break;
-			case sf::Event::Closed:
-				window.close();
-
-				break;
 			}
+			window.clear(sf::Color::Black);
+			Draw(window);
+			window.display();
 		}
-		window.clear(sf::Color::Black);
-		Draw(window);
-		window.display();
 	}
 }
-
 PauseMenu::PauseMenu(float width, float height): MainMenu(width, height)
 {
 	menuText[0].setFont(menuFont);
@@ -167,7 +163,6 @@ void PauseMenu::MoveDown()
 
 MainMenu::MenuAction PauseMenu::GetPauseAction(sf::RenderWindow& window)
 {
-<<<<<<< HEAD
 	sf::Event pauseEvent;
 	while (window.pollEvent(pauseEvent))
 	{
@@ -175,44 +170,44 @@ MainMenu::MenuAction PauseMenu::GetPauseAction(sf::RenderWindow& window)
 		{
 		case sf::Event::KeyReleased:
 			switch (pauseEvent.key.code)
-=======
-	while (window.pollEvent(menuEvent))
-	{
-		switch (menuEvent.type)
-		{
-		case sf::Event::KeyReleased:
-			switch (menuEvent.key.code)
->>>>>>> master
-			{
-			case sf::Keyboard::Up:
-				MoveUp();
-				break;
-
-			case sf::Keyboard::Down:
-				MoveDown();
-				break;
-
-			case sf::Keyboard::Enter:
-				switch (GetPressedItem())
+				while (window.pollEvent(menuEvent))
 				{
-				case 0:
-					return Play;
+					switch (menuEvent.type)
+					{
+					case sf::Event::KeyReleased:
+						switch (menuEvent.key.code)
+						{
+						case sf::Keyboard::Up:
+							MoveUp();
+							break;
 
-				case 1:
-					return Exit;
+						case sf::Keyboard::Down:
+							MoveDown();
+							break;
+
+						case sf::Keyboard::Enter:
+							switch (GetPressedItem())
+							{
+							case 0:
+								return Play;
+
+							case 1:
+								return Exit;
+							}
+
+							break;
+						}
+
+						break;
+					case sf::Event::Closed:
+						window.close();
+
+						break;
+					}
 				}
-
-				break;
-			}
-
-			break;
-		case sf::Event::Closed:
-			window.close();
-
-			break;
+			window.clear(sf::Color::Transparent);
+			Draw(window);
+			window.display();
 		}
 	}
-	window.clear(sf::Color::Transparent);
-	Draw(window);
-	window.display();
 }

@@ -3,11 +3,8 @@ constexpr auto MAX_BUTTON_ITEM = 2;
 
 #include "SFML/Graphics/RenderWindow.hpp"
 #include "SFML/Graphics/Text.hpp"
-<<<<<<< HEAD
-
-=======
 #include "SFML/Window/Event.hpp"
->>>>>>> master
+
 class MainMenu
 {
 public:
@@ -23,11 +20,8 @@ public:
 	MenuAction GetMenuAction(sf::RenderWindow& window);
 
 protected:
-<<<<<<< HEAD
 
-=======
 	sf::Event menuEvent;
->>>>>>> master
 	sf::Font menuFont;
 	sf::Text menuText[MAX_BUTTON_ITEM];
 	int selectedItem;

@@ -16,12 +16,9 @@ void GameManager::Game()
 	}
 
 	// then create (or automatically recreate) the RenderWindow
-	window.create(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGTH), WINDOW_TITLE);
-<<<<<<< HEAD
+	window.create(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), WINDOW_TITLE);
+	window.setMouseCursorVisible(false);
 	window.setFramerateLimit(60u);
-=======
-	window.setFramerateLimit(60);
->>>>>>> master
 	gameState = ShowingMenu;
 
 	while (!IsExiting())
@@ -53,17 +50,13 @@ void GameManager::GameLoop()
 
 	case Playing:
 		//Setting the world and the contact listener
-<<<<<<< HEAD
-		b2World world(b2Vec2(0.0f, 9.8f));
-=======
 		b2World world(b2Vec2(0.0f, 9.81f));
->>>>>>> master
 		PlayerContactListener contactListener;
 		world.SetContactListener(&contactListener);
 
-		sf::View view(sf::Vector2f(0.0f, 0.0f), sf::Vector2f(WINDOW_WIDTH, WINDOW_HEIGTH));
+		sf::View view(sf::Vector2f(0.0f, 0.0f), sf::Vector2f(window.getSize().x, window.getSize().y));
 		PlayerCharacter playerCharacter(world, sf::Vector2f(PLAYER_SPAWN, PLAYER_SPAWN),
-		                                sf::Vector2f(PLAYER_WIDTH, PLAYER_HEIGTH));
+			sf::Vector2f(PLAYER_WIDTH,PLAYER_HEIGHT));
 
 		auto grounds = std::vector<Ground>{
 			{world, sf::Vector2f(400.0f, 600.0f), sf::Vector2f(800.0f, 50.0f)},
@@ -87,7 +80,6 @@ void GameManager::GameLoop()
 				case sf::Event::Resized:
 					ResizedView(window, view);
 					break;
-<<<<<<< HEAD
 				case sf::Event::KeyReleased:
 					switch (event.key.code)
 					{
@@ -95,47 +87,35 @@ void GameManager::GameLoop()
 						ShowPauseMenu();
 						break;
 					}
-				
-=======
->>>>>>> master
+
 				}
 				if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
 				{
 					window.close();
 				}
-<<<<<<< HEAD
-				
-=======
-				if (sf::Keyboard::isKeyPressed(sf::Keyboard::P))
+
+				playerCharacter.InputManager();
+				world.Step(dt.asSeconds(), 10, 10);
+				playerCharacter.Update(dt.asSeconds());
+				view.setCenter(playerCharacter.GetPosition());
+				window.setView(view);
+				window.clear(sf::Color::Black)
+				//DrawMap();
+				for (auto& g : grounds)
 				{
-					gameState = ShowingPauseMenu;
+					g.Draw(window);
 				}
->>>>>>> master
-
+				playerCharacter.Draw(window);
+				window.display();
 			}
-
-			playerCharacter.InputManager();
-			world.Step(dt.asSeconds(), 10, 10);
-			playerCharacter.Update(dt.asSeconds());
-			view.setCenter(playerCharacter.GetPosition());
-			window.setView(view);
-			window.clear(sf::Color::Black);
-			//DrawMap();
-			for (auto& g : grounds)
-			{
-				g.Draw(window);
-			}
-			playerCharacter.Draw(window);
-			window.display();
+			break;
 		}
-		break;
 	}
 }
-
 void GameManager::ResizedView(sf::RenderWindow& window, sf::View& view)
 {
 	float aspectRatio = float(window.getSize().x) / float(window.getSize().y);
-	view.setSize(WINDOW_HEIGTH * aspectRatio, WINDOW_HEIGTH);
+	view.setSize(WINDOW_HEIGHT * aspectRatio, WINDOW_HEIGHT);
 }
 
 void GameManager::ShowMenu()
@@ -156,11 +136,7 @@ void GameManager::ShowMenu()
 
 void GameManager::ShowPauseMenu()
 {
-<<<<<<< HEAD
-	PauseMenu pauseMenu(window.getSize().x / 2 , window.getSize().y);
-=======
 	PauseMenu pauseMenu(window.getSize().x, window.getSize().y);
->>>>>>> master
 	MainMenu::MenuAction action = pauseMenu.GetPauseAction(window);
 
 	switch (action)
