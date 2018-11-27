@@ -1,4 +1,4 @@
-# Install script for directory: D:/Developemment/Project/TrueProject/externals/Box2D
+# Install script for directory: D:/Developemment/Project/TacosRevenge/externals/Box2D
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

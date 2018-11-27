@@ -2,6 +2,6 @@
 D:/Cmake/share/cmake-3.12/Modules/FindOpenAL.cmake
 D:/Cmake/share/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake
 D:/Cmake/share/cmake-3.12/Modules/FindPackageMessage.cmake
-D:/Developemment/Project/TrueProject/externals/SFML/cmake/Modules/FindFLAC.cmake
-D:/Developemment/Project/TrueProject/externals/SFML/cmake/Modules/FindVorbis.cmake
-D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Audio/CMakeLists.txt
+D:/Developemment/Project/TacosRevenge/externals/SFML/cmake/Modules/FindFLAC.cmake
+D:/Developemment/Project/TacosRevenge/externals/SFML/cmake/Modules/FindVorbis.cmake
+D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Audio/CMakeLists.txt

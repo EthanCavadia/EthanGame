@@ -1,57 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\src\ContactListener.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\src\GameManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\src\Ennemy.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\src\Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\src\GameManager.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\src\ground.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\src\Menu.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\src\physics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\src\PlayerCharacter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\src\physics.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\src\player_character.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\include\ContactListener.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\include\GameManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\include\Ennemy.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\include\Menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\include\GameManager.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\include\TacosRevenge.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\include\Globals.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\include\global.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\include\Menu.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\include\ground.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\include\PlayerCharacter.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\include\physics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\include\physics.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\include\player_character.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Developemment\Project\TrueProject\CMakeLists.txt" />
+    <CustomBuild Include="D:\Developemment\Project\TacosRevenge\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{FEA8D01C-AF77-3049-9DA7-AD1F4E13B782}</UniqueIdentifier>
+      <UniqueIdentifier>{0BC3A225-1F85-3550-8493-774C15236D18}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D771D804-EBAF-3956-A967-A96A879AF37D}</UniqueIdentifier>
+      <UniqueIdentifier>{A520527D-E2B2-3B8D-946F-18FFFCE33CF4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0DB60215-3B32-3C16-95B4-2E35BE8B56B7}</ProjectGuid>
+    <ProjectGuid>{89C61119-3580-34F9-94A5-42A588EC5921}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -56,25 +56,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TrueProject\cmake\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TacosRevenge\cmake\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Main.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Main</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TrueProject\cmake\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TacosRevenge\cmake\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Main.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Main</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TrueProject\cmake\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TacosRevenge\cmake\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Main.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Main</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TrueProject\cmake\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TacosRevenge\cmake\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Main.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Main</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D;D:\Developemment\Project\TacosRevenge\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -101,10 +101,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;SFML_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D;D:\Developemment\Project\TacosRevenge\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D;D:\Developemment\Project\TacosRevenge\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -117,8 +117,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Developemment/Project/TrueProject/cmake/Debug/Main.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Developemment/Project/TrueProject/cmake/Debug/Main.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Developemment/Project/TacosRevenge/cmake/Debug/Main.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Developemment/Project/TacosRevenge/cmake/Debug/Main.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -127,7 +127,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D;D:\Developemment\Project\TacosRevenge\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -145,10 +145,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D;D:\Developemment\Project\TacosRevenge\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D;D:\Developemment\Project\TacosRevenge\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -161,8 +161,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Developemment/Project/TrueProject/cmake/Release/Main.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Developemment/Project/TrueProject/cmake/Release/Main.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Developemment/Project/TacosRevenge/cmake/Release/Main.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Developemment/Project/TacosRevenge/cmake/Release/Main.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -171,7 +171,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D;D:\Developemment\Project\TacosRevenge\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D;D:\Developemment\Project\TacosRevenge\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D;D:\Developemment\Project\TacosRevenge\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -205,8 +205,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Developemment/Project/TrueProject/cmake/MinSizeRel/Main.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Developemment/Project/TrueProject/cmake/MinSizeRel/Main.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Developemment/Project/TacosRevenge/cmake/MinSizeRel/Main.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Developemment/Project/TacosRevenge/cmake/MinSizeRel/Main.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -215,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D;D:\Developemment\Project\TacosRevenge\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -232,10 +232,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D;D:\Developemment\Project\TacosRevenge\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;D:\Developemment\Project\TrueProject\externals\Box2D\Box2D;D:\Developemment\Project\TrueProject\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D;D:\Developemment\Project\TacosRevenge\externals\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -248,8 +248,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Developemment/Project/TrueProject/cmake/RelWithDebInfo/Main.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Developemment/Project/TrueProject/cmake/RelWithDebInfo/Main.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Developemment/Project/TacosRevenge/cmake/RelWithDebInfo/Main.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Developemment/Project/TacosRevenge/cmake/RelWithDebInfo/Main.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -257,10 +257,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Developemment\Project\TrueProject\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Developemment\Project\TacosRevenge\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,12 +268,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Developemment/Project/TrueProject/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\Developemment\Project\TrueProject\CMakeLists.txt;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeSystem.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXFeature.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXStandardLibrary.cmake;D:\Developemment\Project\TrueProject\cmake\EnumeratedOption.cmake;D:\Developemment\Project\TrueProject\cmake\IntelCompileFeatures.cmake;D:\Developemment\Project\TrueProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TrueProject\cmake\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Developemment/Project/TacosRevenge/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\Developemment\Project\TacosRevenge\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeCCompiler.cmake;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeSystem.cmake;D:\Developemment\Project\TacosRevenge\cmake\CheckCXXFeature.cmake;D:\Developemment\Project\TacosRevenge\cmake\CheckCXXStandardLibrary.cmake;D:\Developemment\Project\TacosRevenge\cmake\EnumeratedOption.cmake;D:\Developemment\Project\TacosRevenge\cmake\IntelCompileFeatures.cmake;D:\Developemment\Project\TacosRevenge\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -281,12 +281,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Developemment/Project/TrueProject/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\Developemment\Project\TrueProject\CMakeLists.txt;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeSystem.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXFeature.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXStandardLibrary.cmake;D:\Developemment\Project\TrueProject\cmake\EnumeratedOption.cmake;D:\Developemment\Project\TrueProject\cmake\IntelCompileFeatures.cmake;D:\Developemment\Project\TrueProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TrueProject\cmake\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Developemment/Project/TacosRevenge/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\Developemment\Project\TacosRevenge\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeCCompiler.cmake;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeSystem.cmake;D:\Developemment\Project\TacosRevenge\cmake\CheckCXXFeature.cmake;D:\Developemment\Project\TacosRevenge\cmake\CheckCXXStandardLibrary.cmake;D:\Developemment\Project\TacosRevenge\cmake\EnumeratedOption.cmake;D:\Developemment\Project\TacosRevenge\cmake\IntelCompileFeatures.cmake;D:\Developemment\Project\TacosRevenge\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,12 +294,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Developemment/Project/TrueProject/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\Developemment\Project\TrueProject\CMakeLists.txt;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeSystem.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXFeature.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXStandardLibrary.cmake;D:\Developemment\Project\TrueProject\cmake\EnumeratedOption.cmake;D:\Developemment\Project\TrueProject\cmake\IntelCompileFeatures.cmake;D:\Developemment\Project\TrueProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TrueProject\cmake\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Developemment/Project/TacosRevenge/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\Developemment\Project\TacosRevenge\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeCCompiler.cmake;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeSystem.cmake;D:\Developemment\Project\TacosRevenge\cmake\CheckCXXFeature.cmake;D:\Developemment\Project\TacosRevenge\cmake\CheckCXXStandardLibrary.cmake;D:\Developemment\Project\TacosRevenge\cmake\EnumeratedOption.cmake;D:\Developemment\Project\TacosRevenge\cmake\IntelCompileFeatures.cmake;D:\Developemment\Project\TacosRevenge\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -307,45 +307,45 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Developemment/Project/TrueProject/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\Developemment\Project\TrueProject\CMakeLists.txt;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;D:\Developemment\Project\TrueProject\cmake\CMakeFiles\3.12.3\CMakeSystem.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXFeature.cmake;D:\Developemment\Project\TrueProject\cmake\CheckCXXStandardLibrary.cmake;D:\Developemment\Project\TrueProject\cmake\EnumeratedOption.cmake;D:\Developemment\Project\TrueProject\cmake\IntelCompileFeatures.cmake;D:\Developemment\Project\TrueProject\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TrueProject\cmake\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Developemment/Project/TacosRevenge/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeParseArguments.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\Developemment\Project\TacosRevenge\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeCCompiler.cmake;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeCXXCompiler.cmake;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeRCCompiler.cmake;D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\3.12.3\CMakeSystem.cmake;D:\Developemment\Project\TacosRevenge\cmake\CheckCXXFeature.cmake;D:\Developemment\Project\TacosRevenge\cmake\CheckCXXStandardLibrary.cmake;D:\Developemment\Project\TacosRevenge\cmake\EnumeratedOption.cmake;D:\Developemment\Project\TacosRevenge\cmake\IntelCompileFeatures.cmake;D:\Developemment\Project\TacosRevenge\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\main\Main.cpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\main\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\ZERO_CHECK.vcxproj">
-      <Project>{2590DFB2-AB18-3B1C-B79E-83A4F0C5DA92}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\ZERO_CHECK.vcxproj">
+      <Project>{574B78DB-065C-3CE4-BDD0-66FA08335471}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\Box2D\Box2D.vcxproj">
-      <Project>{B8D1FCDC-96A2-3FC8-A6F6-2DB12274EE6A}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\Box2D\Box2D.vcxproj">
+      <Project>{6545A0BB-884F-3282-8BCA-89D7851A6CD3}</Project>
       <Name>Box2D</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\SAE918_COMMON.vcxproj">
-      <Project>{E4630C90-8930-327C-9488-E8327F3E8F68}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\SAE918_COMMON.vcxproj">
+      <Project>{A54ED0F9-183A-3B34-A74E-53F297665582}</Project>
       <Name>SAE918_COMMON</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Audio\sfml-audio.vcxproj">
-      <Project>{25BEB9CD-5B34-3E59-A471-157C3CB87432}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{3022F26E-6C24-374B-A255-8418FFED458C}</Project>
       <Name>sfml-audio</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Graphics\sfml-graphics.vcxproj">
-      <Project>{47B06128-0EE5-3873-9429-04B8D944F61F}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{3795A714-FEC4-34F8-A77A-408E52FCC015}</Project>
       <Name>sfml-graphics</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Network\sfml-network.vcxproj">
-      <Project>{7A96CF29-9A89-3EAC-8590-463E513B3CF0}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{FCFF61F6-29D6-3A72-9D75-E053EBF145DA}</Project>
       <Name>sfml-network</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\System\sfml-system.vcxproj">
-      <Project>{DC99FB1E-E7CA-3BF3-A2D2-87B3F1EAE443}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\System\sfml-system.vcxproj">
+      <Project>{CF499F2C-3497-3CEB-B9AF-65F4A8340978}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Window\sfml-window.vcxproj">
-      <Project>{473945DC-D938-3B7F-8C49-97DC4B4B9B99}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{F2733A7E-540C-3EDD-804F-1C2ED88E48C4}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
   </ItemGroup>

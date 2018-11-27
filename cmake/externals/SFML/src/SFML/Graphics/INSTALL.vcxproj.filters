@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\Developemment\Project\TrueProject\cmake\CMakeFiles\8fe7e80af5489980dd699ceadc78529e\INSTALL_force.rule">
+    <CustomBuild Include="D:\Developemment\Project\TacosRevenge\cmake\CMakeFiles\14b5a2ab72d663f977a0339b13e6df93\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{F156C90D-A7F9-3174-9D79-DED63CF429A9}</UniqueIdentifier>
+      <UniqueIdentifier>{1D8EF50C-AA7C-30B3-B347-C80123174E43}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

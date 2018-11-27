@@ -1,297 +1,297 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2ChainShape.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2ChainShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2CircleShape.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2CircleShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2EdgeShape.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2EdgeShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2PolygonShape.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2PolygonShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\b2BroadPhase.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\b2BroadPhase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\b2CollideCircle.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\b2CollideCircle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\b2CollideEdge.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\b2CollideEdge.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\b2CollidePolygon.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\b2CollidePolygon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\b2Collision.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\b2Collision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\b2Distance.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\b2Distance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\b2DynamicTree.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\b2DynamicTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\b2TimeOfImpact.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\b2TimeOfImpact.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Common\b2BlockAllocator.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Common\b2BlockAllocator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Common\b2Draw.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Common\b2Draw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Common\b2Math.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Common\b2Math.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Common\b2Settings.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Common\b2Settings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Common\b2StackAllocator.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Common\b2StackAllocator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Common\b2Timer.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Common\b2Timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2CircleContact.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2CircleContact.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2Contact.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2Contact.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ContactSolver.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ContactSolver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2PolygonContact.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2PolygonContact.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2DistanceJoint.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2DistanceJoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2FrictionJoint.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2FrictionJoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2GearJoint.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2GearJoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2Joint.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2Joint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2MotorJoint.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2MotorJoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2MouseJoint.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2MouseJoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2PulleyJoint.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2PulleyJoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2RopeJoint.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2RopeJoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2WeldJoint.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2WeldJoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2WheelJoint.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2WheelJoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\b2Body.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\b2Body.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\b2ContactManager.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\b2ContactManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\b2Fixture.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\b2Fixture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\b2Island.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\b2Island.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\b2World.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\b2World.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\b2WorldCallbacks.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\b2WorldCallbacks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Rope\b2Rope.cpp">
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Rope\b2Rope.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Box2D.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Box2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2ChainShape.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2ChainShape.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2CircleShape.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2CircleShape.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2EdgeShape.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2EdgeShape.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2PolygonShape.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2PolygonShape.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2Shape.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\Shapes\b2Shape.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\b2BroadPhase.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\b2BroadPhase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\b2Collision.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\b2Collision.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\b2Distance.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\b2Distance.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\b2DynamicTree.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\b2DynamicTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Collision\b2TimeOfImpact.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Collision\b2TimeOfImpact.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Common\b2BlockAllocator.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Common\b2BlockAllocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Common\b2Draw.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Common\b2Draw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Common\b2GrowableStack.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Common\b2GrowableStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Common\b2Math.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Common\b2Math.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Common\b2Settings.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Common\b2Settings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Common\b2StackAllocator.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Common\b2StackAllocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Common\b2Timer.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Common\b2Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2CircleContact.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2CircleContact.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2Contact.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2Contact.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ContactSolver.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2ContactSolver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2PolygonContact.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Contacts\b2PolygonContact.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2DistanceJoint.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2DistanceJoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2FrictionJoint.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2FrictionJoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2GearJoint.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2GearJoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2Joint.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2Joint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2MotorJoint.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2MotorJoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2MouseJoint.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2MouseJoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2PrismaticJoint.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2PrismaticJoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2PulleyJoint.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2PulleyJoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2RevoluteJoint.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2RevoluteJoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2RopeJoint.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2RopeJoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2WeldJoint.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2WeldJoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2WheelJoint.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\Joints\b2WheelJoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\b2Body.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\b2Body.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\b2ContactManager.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\b2ContactManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\b2Fixture.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\b2Fixture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\b2Island.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\b2Island.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\b2TimeStep.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\b2TimeStep.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\b2World.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\b2World.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Dynamics\b2WorldCallbacks.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Dynamics\b2WorldCallbacks.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\Box2D\Box2D\Box2D\Rope\b2Rope.h">
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\Box2D\Box2D\Rope\b2Rope.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Developemment\Project\TrueProject\externals\Box2D\CMakeLists.txt" />
+    <CustomBuild Include="D:\Developemment\Project\TacosRevenge\externals\Box2D\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{FEA8D01C-AF77-3049-9DA7-AD1F4E13B782}</UniqueIdentifier>
+      <UniqueIdentifier>{0BC3A225-1F85-3550-8493-774C15236D18}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D771D804-EBAF-3956-A967-A96A879AF37D}</UniqueIdentifier>
+      <UniqueIdentifier>{A520527D-E2B2-3B8D-946F-18FFFCE33CF4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

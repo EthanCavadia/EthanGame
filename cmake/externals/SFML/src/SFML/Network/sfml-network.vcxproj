@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7A96CF29-9A89-3EAC-8590-463E513B3CF0}</ProjectGuid>
+    <ProjectGuid>{FCFF61F6-29D6-3A72-9D75-E053EBF145DA}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -56,26 +56,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">sfml-network.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">sfml-network-s-d</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">sfml-network.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">sfml-network-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">sfml-network.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">sfml-network-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">sfml-network.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">sfml-network-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -90,14 +90,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\Debug\sfml-network-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\Debug\sfml-network-s.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -110,7 +110,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -125,14 +125,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\Release\sfml-network-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\Release\sfml-network-s.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -145,7 +145,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -160,14 +160,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\MinSizeRel\sfml-network-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\MinSizeRel\sfml-network-s.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -180,7 +180,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -194,14 +194,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\RelWithDebInfo\sfml-network-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\RelWithDebInfo\sfml-network-s.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -213,10 +213,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Network/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Network/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Network/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Network/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -224,12 +224,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Network/CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Network/CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Network/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Network/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Network/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Network/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -237,12 +237,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Network/CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Network/CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Network/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Network/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Network/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Network/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -250,12 +250,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Network/CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Network/CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Network/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Network/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Network/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Network/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -263,43 +263,43 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Network/CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Network/CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Network\Export.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\Ftp.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Network\Ftp.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\Http.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Network\Http.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\IpAddress.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Network\IpAddress.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\Packet.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Network\Packet.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\Socket.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Network\Socket.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\SocketImpl.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Network\SocketHandle.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\SocketSelector.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Network\SocketSelector.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\TcpListener.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Network\TcpListener.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\TcpSocket.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Network\TcpSocket.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\UdpSocket.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Network\UdpSocket.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\Win32\SocketImpl.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Network\Win32\SocketImpl.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Network\Export.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\Ftp.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Network\Ftp.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\Http.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Network\Http.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\IpAddress.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Network\IpAddress.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\Packet.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Network\Packet.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\Socket.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Network\Socket.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\SocketImpl.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Network\SocketHandle.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\SocketSelector.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Network\SocketSelector.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\TcpListener.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Network\TcpListener.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\TcpSocket.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Network\TcpSocket.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\UdpSocket.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Network\UdpSocket.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\Win32\SocketImpl.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Network\Win32\SocketImpl.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\ZERO_CHECK.vcxproj">
-      <Project>{2590DFB2-AB18-3B1C-B79E-83A4F0C5DA92}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\ZERO_CHECK.vcxproj">
+      <Project>{574B78DB-065C-3CE4-BDD0-66FA08335471}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\System\sfml-system.vcxproj">
-      <Project>{DC99FB1E-E7CA-3BF3-A2D2-87B3F1EAE443}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\System\sfml-system.vcxproj">
+      <Project>{CF499F2C-3497-3CEB-B9AF-65F4A8340978}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
   </ItemGroup>

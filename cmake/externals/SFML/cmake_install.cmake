@@ -1,4 +1,4 @@
-# Install script for directory: D:/Developemment/Project/TrueProject/externals/SFML
+# Install script for directory: D:/Developemment/Project/TacosRevenge/externals/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,34 +33,34 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "D:/Developemment/Project/TrueProject/externals/SFML/include" FILES_MATCHING REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inl$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "D:/Developemment/Project/TacosRevenge/externals/SFML/include" FILES_MATCHING REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inl$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "D:/Developemment/Project/TrueProject/cmake/externals/SFML/lib" FILES_MATCHING REGEX "/[^/]*\\.pdb$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/lib" FILES_MATCHING REGEX "/[^/]*\\.pdb$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "D:/Developemment/Project/TrueProject/externals/SFML/license.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "D:/Developemment/Project/TacosRevenge/externals/SFML/license.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "D:/Developemment/Project/TrueProject/externals/SFML/readme.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "D:/Developemment/Project/TacosRevenge/externals/SFML/readme.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./bin" TYPE DIRECTORY FILES "D:/Developemment/Project/TrueProject/externals/SFML/extlibs/bin/x86/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./bin" TYPE DIRECTORY FILES "D:/Developemment/Project/TacosRevenge/externals/SFML/extlibs/bin/x86/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./lib" TYPE DIRECTORY FILES "D:/Developemment/Project/TrueProject/externals/SFML/extlibs/libs-msvc-universal/x86/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./lib" TYPE DIRECTORY FILES "D:/Developemment/Project/TacosRevenge/externals/SFML/extlibs/libs-msvc-universal/x86/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLStaticTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLStaticTargets.cmake"
-         "D:/Developemment/Project/TrueProject/cmake/externals/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
+         "D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLStaticTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -69,32 +69,32 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/Developemment/Project/TrueProject/cmake/externals/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/Developemment/Project/TrueProject/cmake/externals/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-debug.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/Developemment/Project/TrueProject/cmake/externals/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-minsizerel.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-minsizerel.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/Developemment/Project/TrueProject/cmake/externals/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-relwithdebinfo.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/Developemment/Project/TrueProject/cmake/externals/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES
-    "D:/Developemment/Project/TrueProject/cmake/externals/SFML/SFMLConfig.cmake"
-    "D:/Developemment/Project/TrueProject/cmake/externals/SFML/SFMLConfigDependencies.cmake"
-    "D:/Developemment/Project/TrueProject/cmake/externals/SFML/SFMLConfigVersion.cmake"
+    "D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/SFMLConfig.cmake"
+    "D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/SFMLConfigDependencies.cmake"
+    "D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/SFMLConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/cmake_install.cmake")
+  include("D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/cmake_install.cmake")
 
 endif()
 

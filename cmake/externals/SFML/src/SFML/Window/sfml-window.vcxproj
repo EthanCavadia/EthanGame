@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{473945DC-D938-3B7F-8C49-97DC4B4B9B99}</ProjectGuid>
+    <ProjectGuid>{F2733A7E-540C-3EDD-804F-1C2ED88E48C4}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -56,26 +56,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">sfml-window.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">sfml-window-s-d</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">sfml-window.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">sfml-window-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">sfml-window.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">sfml-window-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">sfml-window.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">sfml-window-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -90,14 +90,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\Debug\sfml-window-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\Debug\sfml-window-s.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -110,7 +110,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -125,14 +125,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\Release\sfml-window-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\Release\sfml-window-s.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -145,7 +145,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -160,14 +160,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\MinSizeRel\sfml-window-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\MinSizeRel\sfml-window-s.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -180,7 +180,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -194,14 +194,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>D:\Developemment\Project\TrueProject\cmake\externals\SFML\lib\RelWithDebInfo\sfml-window-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\lib\RelWithDebInfo\sfml-window-s.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Developemment\Project\TrueProject\include;D:\Developemment\Project\TrueProject\externals\SFML\include;D:\Developemment\Project\TrueProject\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Developemment\Project\TacosRevenge\include;D:\Developemment\Project\TacosRevenge\externals\SFML\include;D:\Developemment\Project\TacosRevenge\externals\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -213,10 +213,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Window/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Window/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Window/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Window/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -224,12 +224,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Window/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\FindOpenGL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Window/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\FindOpenGL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Window/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Window/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Window/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Window/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -237,12 +237,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Window/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\FindOpenGL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Window/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\FindOpenGL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Window/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Window/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Window/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Window/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -250,12 +250,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Window/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\FindOpenGL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Window/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\FindOpenGL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Window/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Window/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TrueProject -BD:/Developemment/Project/TrueProject/cmake --check-stamp-file D:/Developemment/Project/TrueProject/cmake/externals/SFML/src/SFML/Window/CMakeFiles/generate.stamp
+D:\Cmake\bin\cmake.exe -HD:/Developemment/Project/TacosRevenge -BD:/Developemment/Project/TacosRevenge/cmake --check-stamp-file D:/Developemment/Project/TacosRevenge/cmake/externals/SFML/src/SFML/Window/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -263,78 +263,78 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Developemment/Project/TrueProject/externals/SFML/src/SFML/Window/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\FindOpenGL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CMakeLists.txt;D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Developemment/Project/TacosRevenge/externals/SFML/src/SFML/Window/CMakeLists.txt;D:\Cmake\share\cmake-3.12\Modules\FindOpenGL.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;D:\Cmake\share\cmake-3.12\Modules\FindPackageMessage.cmake;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\CMakeLists.txt;D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\Clipboard.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Clipboard.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\ClipboardImpl.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Context.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\Context.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Cursor.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\Cursor.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\CursorImpl.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\Export.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\GlContext.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\GlContext.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\GlResource.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\GlResource.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\ContextSettings.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\Event.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\InputImpl.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\Joystick.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Joystick.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\JoystickImpl.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\JoystickManager.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\JoystickManager.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\Keyboard.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Keyboard.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\Mouse.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Mouse.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\Touch.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Touch.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\Sensor.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Sensor.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\SensorImpl.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\SensorManager.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\SensorManager.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\VideoMode.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\VideoMode.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\VideoModeImpl.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Window.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\Window.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\WindowHandle.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\WindowImpl.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\WindowImpl.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\include\SFML\Window\WindowStyle.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\CursorImpl.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\CursorImpl.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\ClipboardImpl.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\ClipboardImpl.cpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\WglContext.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\WglContext.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\WglExtensions.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\WglExtensions.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\InputImpl.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\InputImpl.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\JoystickImpl.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\JoystickImpl.hpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\SensorImpl.hpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\SensorImpl.cpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp" />
-    <ClCompile Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp" />
-    <ClInclude Include="D:\Developemment\Project\TrueProject\externals\SFML\src\SFML\Window\Win32\WindowImplWin32.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\Clipboard.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Clipboard.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\ClipboardImpl.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Context.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\Context.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Cursor.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\Cursor.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\CursorImpl.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\Export.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\GlContext.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\GlContext.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\GlResource.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\GlResource.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\ContextSettings.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\Event.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\InputImpl.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\Joystick.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Joystick.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\JoystickImpl.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\JoystickManager.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\JoystickManager.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\Keyboard.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Keyboard.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\Mouse.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Mouse.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\Touch.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Touch.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\Sensor.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Sensor.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\SensorImpl.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\SensorManager.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\SensorManager.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\VideoMode.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\VideoMode.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\VideoModeImpl.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Window.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\Window.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\WindowHandle.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\WindowImpl.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\WindowImpl.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\include\SFML\Window\WindowStyle.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\CursorImpl.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\CursorImpl.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\ClipboardImpl.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\ClipboardImpl.cpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\WglContext.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\WglContext.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\WglExtensions.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\WglExtensions.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\InputImpl.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\InputImpl.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\JoystickImpl.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\JoystickImpl.hpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\SensorImpl.hpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\SensorImpl.cpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp" />
+    <ClCompile Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp" />
+    <ClInclude Include="D:\Developemment\Project\TacosRevenge\externals\SFML\src\SFML\Window\Win32\WindowImplWin32.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\ZERO_CHECK.vcxproj">
-      <Project>{2590DFB2-AB18-3B1C-B79E-83A4F0C5DA92}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\ZERO_CHECK.vcxproj">
+      <Project>{574B78DB-065C-3CE4-BDD0-66FA08335471}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Developemment\Project\TrueProject\cmake\externals\SFML\src\SFML\System\sfml-system.vcxproj">
-      <Project>{DC99FB1E-E7CA-3BF3-A2D2-87B3F1EAE443}</Project>
+    <ProjectReference Include="D:\Developemment\Project\TacosRevenge\cmake\externals\SFML\src\SFML\System\sfml-system.vcxproj">
+      <Project>{CF499F2C-3497-3CEB-B9AF-65F4A8340978}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
   </ItemGroup>
