@@ -17,7 +17,7 @@ PlayerCharacter::PlayerCharacter(b2World& world, sf::Vector2f position, sf::Vect
 	playerShape.setPosition(position);
 	playerShape.setSize(size);
 	playerShape.setOrigin(size / 2.0f);
-	playerShape.setTexture(&playerTexture);
+	playerShape.setFillColor(sf::Color::Green);
 
 	//definition of the player movement behavior
 	b2BodyDef bodyDef;
@@ -35,7 +35,7 @@ PlayerCharacter::PlayerCharacter(b2World& world, sf::Vector2f position, sf::Vect
 	rectFixtureDef.userData = this;
 	rectFixtureDef.density = 1;
 	rectFixtureDef.friction = 0;
-	fixture= body->CreateFixture(&rectFixtureDef);
+	body->CreateFixture(&rectFixtureDef);
 }
 
 void PlayerCharacter::InputManager()
@@ -59,7 +59,7 @@ void PlayerCharacter::InputManager()
 		verticalJump = -8.0f;
 	}	
 
-	if (sf::Joystick::isConnected(0))
+	/*if (sf::Joystick::isConnected(0))
 	{
 		float x = sf::Joystick::getAxisPosition(0, sf::Joystick::X);
 		if (sf::Joystick::getAxisPosition(0, sf::Joystick::X))
@@ -83,7 +83,7 @@ void PlayerCharacter::InputManager()
 			//Jump
 			verticalJump = -8.0f;
 		}		
-	}
+	}*/
 
 	body->SetLinearVelocity(b2Vec2(pixel2meter(playerSpeed) * horizontalInput, verticalJump));
 

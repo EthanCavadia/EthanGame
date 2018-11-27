@@ -7,6 +7,7 @@
 class GameManager
 {
 public:
+	sf::Clock clock;
 	void Game();
 
 private:
@@ -20,7 +21,7 @@ private:
 
 	static GameState gameState;
 	sf::RenderWindow window;
-	sf::Clock clock;
+	
 };
 
 #endif

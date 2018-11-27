@@ -63,9 +63,9 @@ void GameManager::GameLoop()
 			{world, sf::Vector2f(800.0f, 300.0f), sf::Vector2f(600.0f, 50.0f)}
 		};
 
-		sf::Time dt;
+		
 		sf::Event event;
-		dt = clock.restart();
+		sf::Time dt = clock.restart();
 
 		while (window.isOpen())
 		{
@@ -99,7 +99,7 @@ void GameManager::GameLoop()
 				playerCharacter.Update(dt.asSeconds());
 				view.setCenter(playerCharacter.GetPosition());
 				window.setView(view);
-				window.clear(sf::Color::Black)
+				window.clear(sf::Color::Black);
 				//DrawMap();
 				for (auto& g : grounds)
 				{
@@ -136,7 +136,7 @@ void GameManager::ShowMenu()
 
 void GameManager::ShowPauseMenu()
 {
-	PauseMenu pauseMenu(window.getSize().x, window.getSize().y);
+	PauseMenu pauseMenu(window.getSize().x/2 , window.getSize().y);
 	MainMenu::MenuAction action = pauseMenu.GetPauseAction(window);
 
 	switch (action)

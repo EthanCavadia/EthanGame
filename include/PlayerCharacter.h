@@ -34,7 +34,6 @@ public:
 	sf::Vector2f GetPosition();
 	void SetPosition(sf::Vector2f v);
 	void SetOnGround(bool contact);
-
 private:
 
 	sf::RectangleShape playerShape;
@@ -45,6 +44,7 @@ private:
 	const float playerSpeed = 50.0f;
 	bool isOnGround = false;
 	bool wasJumpKeyPressed = false;
+	bool wasjumpButtonPressed = false;
 };
 
 #endif
