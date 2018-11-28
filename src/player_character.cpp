@@ -39,11 +39,7 @@ PlayerCharacter::PlayerCharacter(b2World& world, sf::Vector2f position, sf::Vect
 
 void PlayerCharacter::ManageInput()
 {
-	sf::SoundBuffer jumpBuffer;
-	sf::Sound jumpSound;
 
-	jumpBuffer.loadFromFile("Jump.wav");
-	jumpSound.setBuffer(jumpBuffer);
 
 	float horizontalInput = 0.0f;
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Left))
@@ -61,7 +57,7 @@ void PlayerCharacter::ManageInput()
 	{
 		//Jump
 		verticalJump = -8.0f;
-		jumpSound.play();
+		
 	}
 
 	//Joystick input TODO debug constant movement
@@ -88,7 +84,7 @@ void PlayerCharacter::ManageInput()
 		{
 			//Jump
 			verticalJump = -8.0f;
-			jumpSound.play();
+		
 		}
 	}
 	body->SetLinearVelocity(b2Vec2(pixel2meter(playerSpeed) * horizontalInput, verticalJump));

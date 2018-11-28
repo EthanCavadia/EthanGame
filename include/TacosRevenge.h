@@ -1,5 +1,6 @@
 #include "SFML/System/Clock.hpp"
 #include "SFML/Graphics.hpp"
+#include "SFML/Audio.hpp"
 
 class GameManager
 {
@@ -19,4 +20,6 @@ private:
 	static GameState gameState;
 	sf::RenderWindow window;
 	sf::Clock clock;
+	
+
 };

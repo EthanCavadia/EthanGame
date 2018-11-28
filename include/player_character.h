@@ -5,6 +5,8 @@
 #include "SFML/Graphics/RenderWindow.hpp"
 #include "SFML/Graphics/RectangleShape.hpp"
 #include "SFML/Graphics.hpp"
+#include "SFML/Audio.hpp"
+	
 class PlayerCharacter
 {
 public:

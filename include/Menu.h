@@ -28,16 +28,3 @@ protected:
 	int GetPressedItem() { return selectedItem; }
 };
 #endif
-
-class PauseMenu : public MainMenu
-{
-public:
-	PauseMenu(float width, float height);
-	~PauseMenu();
-
-	void MoveUp();
-	void MoveDown();
-	void Draw(sf::RenderWindow& window);
-
-	MenuAction GetPauseAction(sf::RenderWindow& window);
-};
