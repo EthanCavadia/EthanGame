@@ -18,7 +18,12 @@ void GameManager::Game()
 	window.create(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), WINDOW_TITLE);
 	window.setMouseCursorVisible(false);
 	window.setFramerateLimit(60u);
-	GameManager::gameState = GameManager::ShowingMenu;
+	music.openFromFile("data/OffLimits.wav");
+	music.setLoop(true);
+	music.setVolume(10u);
+	music.play();
+
+	gameState = ShowingMenu;
 
 	while (!IsExiting())
 	{
@@ -103,6 +108,7 @@ void GameManager::GameLoop()
 				{
 				case sf::Event::Closed:
 					window.close();
+					gameState = Exiting;
 					break;
 				case sf::Event::Resized:
 					ResizedView(window, view);
@@ -111,6 +117,7 @@ void GameManager::GameLoop()
 				if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Escape))
 				{
 					window.close();
+					gameState = Exiting;
 				}
 				if (sf::Keyboard::isKeyPressed(sf::Keyboard::P))
 				{
